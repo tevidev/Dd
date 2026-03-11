@@ -1,0 +1,137 @@
+477214-----{
+  "error": {
+    "code": "card_declined",
+    "decline_code": "generic_decline",
+    "doc_url": "https://stripe.com/docs/error-codes/card-declined",
+    "message": "Your card was declined.",
+    "payment_method": {
+      "id": "pm_1SpD05AFhwyEmCXhkeesuWgD",
+      "object": "payment_method",
+      "allow_redisplay": "unspecified",
+      "billing_details": {
+        "address": {
+          "city": null,
+          "country": null,
+          "line1": null,
+          "line2": null,
+          "postal_code": "79903",
+          "state": null
+        },
+        "email": "johnny53cl.ark.3.0.9.2@gmail.com",
+        "name": "Adriano kamo",
+        "phone": null,
+        "tax_id": null
+      },
+      "card": {
+        "brand": "visa",
+        "checks": {
+          "address_line1_check": null,
+          "address_postal_code_check": null,
+          "cvc_check": null
+        },
+        "country": "MX",
+        "display_brand": "visa",
+        "exp_month": 8,
+        "exp_year": 2030,
+        "funding": "credit",
+        "generated_from": null,
+        "last4": "0363",
+        "networks": {
+          "available": [
+            "visa"
+          ],
+          "preferred": null
+        },
+        "regulated_status": "unregulated",
+        "three_d_secure_usage": {
+          "supported": true
+        },
+        "wallet": null
+      },
+      "created": 1768331493,
+      "customer": null,
+      "customer_account": null,
+      "livemode": true,
+      "type": "card"
+    },
+    "request_log_url": "https://dashboard.stripe.com/acct_1DckrmAFhwyEmCXh/workbench/logs?object=req_vGvCIjvB5WV8td",
+    "setup_intent": {
+      "id": "seti_1SpD05AFhwyEmCXhVIzmdNC6",
+      "object": "setup_intent",
+      "automatic_payment_methods": null,
+      "cancellation_reason": null,
+      "client_secret": "seti_1SpD05AFhwyEmCXhVIzmdNC6_secret_TmmZ9ZjNUThyvp5dsYNXrSHVwzh6ux3",
+      "created": 1768331493,
+      "description": "muse.ai | payments",
+      "excluded_payment_method_types": null,
+      "last_setup_error": {
+        "code": "card_declined",
+        "decline_code": "generic_decline",
+        "doc_url": "https://stripe.com/docs/error-codes/card-declined",
+        "message": "Your card was declined.",
+        "payment_method": {
+          "id": "pm_1SpD05AFhwyEmCXhkeesuWgD",
+          "object": "payment_method",
+          "allow_redisplay": "unspecified",
+          "billing_details": {
+            "address": {
+              "city": null,
+              "country": null,
+              "line1": null,
+              "line2": null,
+              "postal_code": "79903",
+              "state": null
+            },
+            "email": "johnny53cl.ark.3.0.9.2@gmail.com",
+            "name": "Adriano kamo",
+            "phone": null,
+            "tax_id": null
+          },
+          "card": {
+            "brand": "visa",
+            "checks": {
+              "address_line1_check": null,
+              "address_postal_code_check": null,
+              "cvc_check": null
+            },
+            "country": "MX",
+            "display_brand": "visa",
+            "exp_month": 8,
+            "exp_year": 2030,
+            "funding": "credit",
+            "generated_from": null,
+            "last4": "0363",
+            "networks": {
+              "available": [
+                "visa"
+              ],
+              "preferred": null
+            },
+            "regulated_status": "unregulated",
+            "three_d_secure_usage": {
+              "supported": true
+            },
+            "wallet": null
+          },
+          "created": 1768331493,
+          "customer": null,
+          "customer_account": null,
+          "livemode": true,
+          "type": "card"
+        },
+        "type": "card_error"
+      },
+      "livemode": true,
+      "next_action": null,
+      "payment_method": null,
+      "payment_method_configuration_details": null,
+      "payment_method_types": [
+        "card"
+      ],
+      "status": "requires_payment_method",
+      "usage": "off_session"
+    },
+    "type": "card_error"
+  }
+}
+
